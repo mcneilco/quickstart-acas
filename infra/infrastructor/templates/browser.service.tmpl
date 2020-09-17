@@ -1,0 +1,17 @@
+[Unit]
+Description=browser stack
+Requires=docker.service
+After=docker.service
+
+[Service]
+
+RemainAfterExit=true
+WorkingDirectory=/project/quickstart-dotmatics/infra
+
+ExecStartPre=
+
+ExecStart=/usr/bin/make stack_deploy_browser ENV=prod
+ExecStop=/usr/bin/make stack_rm ENV=prod
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,78 @@
+[
+    {
+        "ParameterKey": "pAvailabilityZones",
+        "ParameterValue": "$[taskcat_genaz_2]"
+    },
+    {
+        "ParameterKey": "pEC2KeyPair",
+        "ParameterValue": "paulu-hclscollab-taskcat"
+    },
+    {
+        "ParameterKey": "pPrivateSubnet1CIDR",
+        "ParameterValue": "10.80.32.0/20"
+    },
+    {
+        "ParameterKey": "pPrivateSubnet2CIDR",
+        "ParameterValue": "10.80.48.0/20"
+    },
+    {
+        "ParameterKey": "pPublicSubnet1CIDR",
+        "ParameterValue": "10.80.0.0/20"
+    },
+    {
+        "ParameterKey": "pPublicSubnet2CIDR",
+        "ParameterValue": "10.80.16.0/20"
+    },
+    {
+        "ParameterKey": "pVPCCIDR",
+        "ParameterValue": "10.80.0.0/16"
+    },
+    {
+        "ParameterKey": "pPrimaryIPAddress",
+        "ParameterValue": "10.80.32.5"
+    },
+    {
+        "ParameterKey": "pStandbyIPAddress",
+        "ParameterValue": "10.80.48.5"
+    },
+    {
+        "ParameterKey": "QSS3BucketName",
+        "ParameterValue": "$[taskcat_autobucket]"
+    },
+    {
+        "ParameterKey": "QSS3KeyPrefix",
+        "ParameterValue": "quickstart-acas/"
+    },
+    {
+        "ParameterKey": "pDatabasePass",
+        "ParameterValue": "Test1234#"
+    },
+    {
+        "ParameterKey": "pAsmPass",
+        "ParameterValue": "Test1234#"
+    },
+    {
+        "ParameterKey": "pWebAccessCIDR",
+        "ParameterValue": "0.0.0.0/0"
+    },
+    {
+        "ParameterKey": "pDataGuardConfig",
+        "ParameterValue": "Single"
+    },
+    {
+        "ParameterKey": "pInstallBucketName",
+        "ParameterValue": "devspacepaul"
+    },
+    {
+        "ParameterKey": "pInstallBucketPrefix",
+        "ParameterValue": "oraclebins"
+    },
+    {
+        "ParameterKey": "pOracleInstanceType",
+        "ParameterValue": "t2.large"
+    },
+    {
+        "ParameterKey": "pApplicationServerProtocol",
+        "ParameterValue": "http"
+    }
+]

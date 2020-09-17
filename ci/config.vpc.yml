@@ -1,0 +1,16 @@
+global:
+  marketplace-ami: false
+  owner: quickstart-eng@amazon.com
+  qsname: quickstart-acas
+  s3bucket: paulu-hclscollab-taskcat-bucket
+  regions:
+    - eu-west-1
+    - us-east-1
+    - us-west-2
+  reporting: true
+tests:
+  quickstart-biotech-blueprintt1:
+    parameter_input: acas-params.t1.json
+    template_file: acas-master.template
+    regions:
+      - eu-west-1
